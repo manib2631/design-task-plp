@@ -1,0 +1,23 @@
+.check-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.recommend-content{
+    color:#252020;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.recommended-hide-content{
+    background-color: #fff;
+    position: absolute;
+    top:73px;
+    box-shadow: 0px 0px 7px 1px #A3AAAF33;
+    padding: 20px;
+    width: 235px;
+    height: 324px;
+text-align: end;
+right: 0px;
+
+
+}

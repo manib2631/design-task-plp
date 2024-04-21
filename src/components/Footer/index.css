@@ -1,0 +1,115 @@
+.Footer-block{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #000000;
+    color: #fff;
+    font-family: "Simplon Norm";
+}
+.footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.footer-heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-top-content{
+    font-size: 16px;
+    font-weight: 400;
+}
+.subscriber-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.input{
+    flex: 0 0 380px;
+    height: 50px;
+}
+.subscribe {
+    color: #FFFFFF;
+    /* border-color: #FFFFFF; */
+    border: 1px solid #ffffff;
+    padding: 13px 50px 13px 50px;
+    border-radius: 5px;
+    margin: 0 0 0 50px;
+    opacity: 30%;
+}
+.footer-heading-content{
+    font-family: 18px;
+    font-weight: 400;
+}
+.usd-content{
+    display: flex;
+    flex-direction: row;
+}
+.payments-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+.payment-img{
+    margin-right: 10px;
+}
+.links-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.follow-content{
+    flex: 0 0 600px;
+}
+.copy-right{
+    text-align: center;
+}
+@media  (max-width:1024px){
+    .Footer-block {
+        padding: 20px;
+    }
+    .footer-top {
+        flex-direction: column;
+    }
+    .footer-heading {
+        border-top: 1px solid #fff;
+        padding-top: 30px;
+    }
+    .usd-content img{
+        padding-right: 5px;
+    }
+    .hide-on-mobile{
+        display: none;
+    }
+    .footer-bottom {
+        flex-direction: column;
+    }
+    .follow-content {
+        flex: initial;
+    }
+    .subscriber-content input {
+        flex: 0 0 200px;
+    }
+    .subscribe {
+        margin-left: 10px;
+        padding: 14px;
+    }
+    .subscriber-content {
+        justify-content: initial;
+    }
+    .payments-content {
+        flex-wrap: wrap;
+        justify-content: initial;
+    }
+    .payment-img {
+        margin-bottom: 10px;
+    }
+}

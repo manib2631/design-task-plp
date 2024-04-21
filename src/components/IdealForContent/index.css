@@ -1,0 +1,19 @@
+
+.check-content{
+    display: flex;
+    flex-direction: row;
+   align-items : center;
+}
+.box{
+    width:18px;
+    height:18px;
+    padding-right:10px;
+
+}
+.select-content{
+    color:#BFC8CD;
+    text-decoration: underline;
+}
+.check-text{
+    font-size: 16px;
+}
