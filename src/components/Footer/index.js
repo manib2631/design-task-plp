@@ -52,10 +52,6 @@ function Footer (){
         
         <div className='follow-content'>
             <h1 className='footer-heading'>Follow Us</h1>
-            <div>
-                <img/>
-                <img/>
-            </div>
             <h1 className='footer-heading'>mettā muse Accepts</h1>
             <div className='payments-content'>
                 <img className="payment-img" src="assets/Group 136188.svg" alt="usd" />
